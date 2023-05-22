@@ -41,8 +41,8 @@ header img{
 .logo{
     display: flex;
     align-items: center;
-    color: rgb(109, 131, 243);
-    width: 300px;
+    color:#147499;
+   
 }
 
 #nav-menu{
