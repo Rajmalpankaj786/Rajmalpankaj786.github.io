@@ -23,17 +23,17 @@ menu.addEventListener('click',()=>{
 
 // document.querySelector("#resume-link-2").addEventListener("click", () => {
 //     window.open(
-//       "https://drive.google.com/file/d/1nsnlYP3nJ9X8FGQaom0rBlRMCfC4tB03/view",
+//       "https://drive.google.com/file/d/1-jii6oNpfVp_Ssqd_N5FNt5GmZvHDsKE/view?usp=sharing",
 //       "_blank"
 //     );
 //   });
 
 function resume(){
-    window.open("https://drive.google.com/file/d/1nsnlYP3nJ9X8FGQaom0rBlRMCfC4tB03/view",`_blank`)
+    window.open("https://drive.google.com/file/d/1-jii6oNpfVp_Ssqd_N5FNt5GmZvHDsKE/view?usp=sharing",`_blank`)
   }
   
 // document.getElementById("resume-button-2").onclick = ()=>{
-// window.open("https://drive.google.com/file/d/1nsnlYP3nJ9X8FGQaom0rBlRMCfC4tB03/view",`_blank`)
+// window.open("https://drive.google.com/file/d/1-jii6oNpfVp_Ssqd_N5FNt5GmZvHDsKE/view?usp=sharing",`_blank`)
 // }
 
 
