@@ -21,12 +21,12 @@ menu.addEventListener('click',()=>{
     }
 });
 
-// document.querySelector("#resume-link-1").addEventListener("click", () => {
-//     window.open(
-//       "https://drive.google.com/file/d/1-jii6oNpfVp_Ssqd_N5FNt5GmZvHDsKE/view?usp=sharing",
-//       "_blank"
-//     );
-//   });
+document.querySelector("#resume-link-2").addEventListener("click", () => {
+    window.open(
+      "https://drive.google.com/file/d/1-jii6oNpfVp_Ssqd_N5FNt5GmZvHDsKE/view?usp=sharing",
+      "_blank"
+    );
+  });
 
 function resume(){
     window.open("https://drive.google.com/file/d/1-jii6oNpfVp_Ssqd_N5FNt5GmZvHDsKE/view",`_blank`)
