@@ -3,7 +3,7 @@ let navbar=document.querySelector(".navbar");
 let m=document.querySelector(".main-body")
 let count=0;
 menu.addEventListener('click',()=>{
-    menu.classList.toggle('bx-x');
+   // menu.classList.toggle('bx-x');
     navbar.classList.toggle('open');
     
     // m.style.marginTop="200px";
