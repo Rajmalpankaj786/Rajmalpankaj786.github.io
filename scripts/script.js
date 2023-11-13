@@ -21,21 +21,6 @@ menu.addEventListener('click',()=>{
     }
 });
 
-// document.querySelector("#resume-link-1").addEventListener("click", () => {
-//     window.open(
-//       "https://drive.google.com/file/d/1-jii6oNpfVp_Ssqd_N5FNt5GmZvHDsKE/view?usp=sharing",
-//       "_blank"
-//     );
-//   });
-
-// function resume(){
-//     window.open("https://drive.google.com/file/d/1-jii6oNpfVp_Ssqd_N5FNt5GmZvHDsKE/view",`_blank`)
-//   }
-  
-// document.getElementById("resume-button-2").onclick = ()=>{
-// window.open("https://drive.google.com/file/d/1-jii6oNpfVp_Ssqd_N5FNt5GmZvHDsKE/view?usp=sharing",`_blank`)
-// }
-
 document.querySelector("#resume-button-1").addEventListener("click",()=>{
     window.location.href="https://drive.google.com/uc?export=download&id=1aSlQv8e7n5QJFbPWbZdTum3oGNQZPmLP";
     window.open("https://drive.google.com/file/d/1-jii6oNpfVp_Ssqd_N5FNt5GmZvHDsKE/view","_blank") ;
