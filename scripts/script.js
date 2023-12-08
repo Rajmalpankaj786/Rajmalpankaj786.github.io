@@ -1,3 +1,18 @@
+
+// function resume(){
+//     window.open("https://drive.google.com/file/d/1-jii6oNpfVp_Ssqd_N5FNt5GmZvHDsKE/view",`_blank`)
+//   }
+// document.querySelector("#resume-button-1").addEventListener("click",()=>{
+//     window.location.href="https://drive.google.com/uc?export=download&id=1aSlQv8e7n5QJFbPWbZdTum3oGNQZPmLP";
+//     window.open("https://drive.google.com/file/d/1-jii6oNpfVp_Ssqd_N5FNt5GmZvHDsKE/view","_blank") ;
+//  })
+//  // https://drive.google.com/drive/folders/1U-XyAI4s6kDasVSQlzrcVnFwuLU13gIG?usp=sharing
+//  document.querySelector("#resume-button-2").addEventListener("click",()=>{
+//     window.location.href="https://drive.google.com/uc?export=download&id=1aSlQv8e7n5QJFbPWbZdTum3oGNQZPmLP";
+//    window.open("https://drive.google.com/file/d/1-jii6oNpfVp_Ssqd_N5FNt5GmZvHDsKE/view","_blank") ;
+//  })
+
+ 
 let menu=document.getElementById("menu-icon");
 let navbar=document.querySelector(".navbar");
 let m=document.querySelector(".main-body")
@@ -21,20 +36,24 @@ menu.addEventListener('click',()=>{
     }
 });
 
-function resume(){
-    window.open("https://drive.google.com/file/d/1-jii6oNpfVp_Ssqd_N5FNt5GmZvHDsKE/view",`_blank`)
-  }
-document.querySelector("#resume-button-1").addEventListener("click",()=>{
-    window.location.href="https://drive.google.com/uc?export=download&id=1aSlQv8e7n5QJFbPWbZdTum3oGNQZPmLP";
-    window.open("https://drive.google.com/file/d/1-jii6oNpfVp_Ssqd_N5FNt5GmZvHDsKE/view","_blank") ;
- })
- // https://drive.google.com/drive/folders/1U-XyAI4s6kDasVSQlzrcVnFwuLU13gIG?usp=sharing
- document.querySelector("#resume-button-2").addEventListener("click",()=>{
-    window.location.href="https://drive.google.com/uc?export=download&id=1aSlQv8e7n5QJFbPWbZdTum3oGNQZPmLP";
-   window.open("https://drive.google.com/file/d/1-jii6oNpfVp_Ssqd_N5FNt5GmZvHDsKE/view","_blank") ;
- })
+// document.querySelector("#resume-link-2").addEventListener("click", () => {
+//     window.open(
+//       "https://drive.google.com/file/d/1KzA6rn_akPO2jed7QcsLBoIiddNrLU3b/view",
+//       "_blank"
+//     );
+//   });
 
- document.querySelector(".home").addEventListener("click", ()=>{
+function resume(){
+    window.open("https://drive.google.com/file/d/1KzA6rn_akPO2jed7QcsLBoIiddNrLU3b/view",`_blank`)
+  }
+  
+// document.getElementById("resume-button-2").onclick = ()=>{
+// window.open("https://drive.google.com/file/d/1KzA6rn_akPO2jed7QcsLBoIiddNrLU3b/view",`_blank`)
+// }
+
+
+
+document.querySelector(".home").addEventListener("click", ()=>{
     menu.classList.toggle('bx-x');
     navbar.classList.toggle('open');
     if(m.classList.contains("m-t")){
