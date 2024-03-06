@@ -325,26 +325,24 @@
     </div>
     <div class="send-info">
 
-        <div>
-          <form
-          action="https://formspree.io/f/maygqnjr"
-            method="POST"
-            >
+         <div>
+          <form action="#" method="POST" onsubmit="sendEmail() ; reset(); return false " >
+            <h1 style="color: blue; text-align:center;">Message me</h1>
                 <div class="input-box">
                     <p>Name</p>
-                    <input type="text" name="name" required/>
+                    <input type="text" id="name" required/>
                 </div>
                 <div class="input-box">
                     <p>Email</p>
-                    <input type="email" name="email" required />
+                    <input type="email" id="email" required />
                 </div>
                 <div class="input-box">
-                    <p>Projects</p>
-                    <input type="text" />
+                    <p>Subject</p>
+                    <input type="text" id="subject" required  />
                 </div>
                 <div class="input-box">
                     <p>Message</p>
-                    <textarea type="text" rows="5" name="message" required ></textarea>
+                    <textarea type="text" rows="5" id="content" required ></textarea>
                 </div>
                 <div class="submit-btn">
                     <button type="submit" id="form-submit">Send Message</button>
@@ -352,8 +350,31 @@
             </form>
         </div>
     </div>
-</div>
+</div> 
 
+
+<!-- <div class="column right">
+  <div class="text">Message me</div>
+  <form action="#" method="POST" onsubmit="sendEmail() ; reset(); return false " >
+      <div class="fields">
+          <div class="field name">
+              <input type="text" id="name" placeholder="Name" required>
+          </div>
+          <div class="field email">
+              <input type="email" id="email" name="email" placeholder="Email" required>
+          </div>
+      </div>
+      <div class="field">
+          <input type="text" id="subject" name="subject" placeholder="Subject" required>
+      </div>
+      <div class="field textarea">
+          <textarea cols="30" rows="10" name="message" placeholder="Message.." id="content"></textarea>
+      </div>
+      <div class="button-area">
+          <button type="submit">Send message</button>
+      </div>
+  </form>
+</div> -->
 </section>
 
 </div>
@@ -377,3 +398,5 @@
 
 </html>
 <script src="scripts/script.js"></script>
+
+<script src="https://smtpjs.com/v3/smtp.js"></script>
