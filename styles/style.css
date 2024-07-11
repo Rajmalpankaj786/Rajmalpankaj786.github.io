@@ -245,7 +245,7 @@ header img{
     width: 100%;    
 }
 #about img{
-    border-radius: 20%;
+    border-radius: 60%;
     width: 25vw;
     border: 2px solid white;
 }
@@ -882,7 +882,7 @@ footer>div:nth-child(2){
         margin-bottom: 50px;
     }
     #about img{
-        width: 50vw;
+        width: 50%;
     }
 
 
@@ -1014,10 +1014,13 @@ footer>div:nth-child(2){
     .project-card{
         flex-direction: column;
         width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .project-card>div:nth-child(1){
-        width: 100%;
+        width: 70%;
 
     }
     .project-card>div:nth-child(2){
@@ -1159,10 +1162,13 @@ footer>div:nth-child(2){
         /* border: 1px solid red; */
         flex-direction: column;
         width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     
     .project-card>div:nth-child(1){
-        width: 100%;
+        width: 70%;
         
     }
     .project-card>div:nth-child(2){
